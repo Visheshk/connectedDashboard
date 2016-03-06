@@ -11,6 +11,8 @@ configure do
   end
 end
 
+set :bind, '0.0.0.0'
+
 map Sinatra::Application.assets_prefix do
   run Sinatra::Application.sprockets
 end
