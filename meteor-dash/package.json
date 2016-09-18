@@ -1,0 +1,11 @@
+{
+  "name": "meteor-dash",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "meteor": "MONGO_URL=mongodb://127.0.0.1:27017/local meteor"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
